@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <!-- Include Sakai OSS parent, includes information for release management and project information common to all projects --> 
@@ -6,7 +6,7 @@
       <groupId>org.sakaiproject</groupId>
       <artifactId>oss-parent</artifactId>
       <version>1</version>
-      <relativePath></relativePath>
+      <relativePath/>
   </parent>
 
   <!-- Sakai Master defines all property versions and dependencyManagement used in Sakai -->
@@ -20,14 +20,14 @@
   <version>23-SNAPSHOT</version>
 
   <properties>
-    <sakai.version>23-SNAPSHOT</sakai.version>
+    <sakai.version>23.0</sakai.version>
     <!-- Standard dependency versions -->
     <sakai.commons-io.version>2.11.0</sakai.commons-io.version>
     <sakai.commons.lang.version>2.6</sakai.commons.lang.version>
     <sakai.commons.lang3.version>3.12.0</sakai.commons.lang3.version>
-    <sakai.commons.fileupload.version>1.4</sakai.commons.fileupload.version>
+    <sakai.commons.fileupload.version>1.6.0</sakai.commons.fileupload.version>
     <sakai.commons-math3.version>3.6.1</sakai.commons-math3.version>
-    <sakai.commons-text.version>1.9</sakai.commons-text.version>
+    <sakai.commons-text.version>1.14.0</sakai.commons-text.version>
     <sakai.commons-validator.version>1.7</sakai.commons-validator.version>
     <sakai.commons-logging.version>1.2</sakai.commons-logging.version>
     <sakai.commons.configuration.version>1.6</sakai.commons.configuration.version>
@@ -36,7 +36,7 @@
     <sakai.ehcache.artifactId>ehcache-core</sakai.ehcache.artifactId>
     <sakai.ehcache.version>2.6.11</sakai.ehcache.version>
     <sakai.elasticsearch.version>7.17.1</sakai.elasticsearch.version>
-    <sakai.hibernate.version>5.3.20.Final</sakai.hibernate.version>
+    <sakai.hibernate.version>6.0.0.Final</sakai.hibernate.version>
     <sakai.hikaricp.version>4.0.3</sakai.hikaricp.version>
     <sakai.httpclient.version>4.5.13</sakai.httpclient.version>
     <sakai.httpcore.version>4.4.15</sakai.httpcore.version>
@@ -58,11 +58,11 @@
     <sakai.org.json.version>20210307</sakai.org.json.version>
     <sakai.pluto.version>1.1.7</sakai.pluto.version>
     <sakai.quartz.version>2.3.2</sakai.quartz.version>
-    <sakai.opencsv.version>5.6</sakai.opencsv.version>
+    <sakai.opencsv.version>5.12.0</sakai.opencsv.version>
     <sakai.openpdf.version>1.3.27</sakai.openpdf.version>
     <sakai.groovy.version>2.4.17</sakai.groovy.version>
     <sakai.simple-xml.version>2.7.1</sakai.simple-xml.version>
-    <sakai.spring.version>5.3.18</sakai.spring.version>
+    <sakai.spring.version>6.2.10</sakai.spring.version>
     <sakai.spring.data.commons.version>2.5.3</sakai.spring.data.commons.version>
     <sakai.spring.data.jpa.version>2.5.3</sakai.spring.data.jpa.version>
     <sakai.spring.data.rest.version>3.5.3</sakai.spring.data.rest.version>
@@ -103,7 +103,7 @@
     <sakai.build.directory>target</sakai.build.directory>
     <maven.test.redirectTestOutputToFile>false</maven.test.redirectTestOutputToFile>
     <!-- Default empty unless profile activation -->
-    <random-source></random-source>
+    <random-source/>
 
     <!-- These should only be updated when the webjars version is updated -->
     <ckeditor.autosave.version>0.18.6</ckeditor.autosave.version>
